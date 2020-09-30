@@ -1,0 +1,5 @@
+ransomeWare firstLook == https://www.oreilly.com/library/view/ransomware/9781491967874/ch01.html
+
+guideMeSenpai == https://attack.mitre.org/
+
+
