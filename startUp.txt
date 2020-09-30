@@ -2,4 +2,6 @@ ransomeWare firstLook == https://www.oreilly.com/library/view/ransomware/9781491
 
 guideMeSenpai == https://attack.mitre.org/
 
+undetected howTo == https://www.varonis.com/blog/malware-coding-lessons-people-part-learning-write-custom-fud-fully-undetected-malware/
+
 
