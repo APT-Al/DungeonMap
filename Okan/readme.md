@@ -68,20 +68,12 @@ it depends on your imagination
 - https://github.com/NYAN-x-CAT/Lime-RAT :: visualBasic :: .NET
 - https://github.com/mauri870/ransomware :: go :: 
 - https://github.com/tarcisio-marinho/GonnaCry :: py :: veryNice
-    - Ransomware Impact on industry
-        - https://medium.com/@tarcisioma/how-can-a-malware-encrypt-a-company-existence-c7ed584f66b3
+    - Ransomware Impact on industry: https://medium.com/@tarcisioma/how-can-a-malware-encrypt-a-company-existence-c7ed584f66b3
 
-    - How this ransomware encryption scheme works:
-        - https://medium.com/@tarcisioma/ransomware-encryption-techniques-696531d07bb9
+    - How this ransomware encryption scheme works: https://medium.com/@tarcisioma/ransomware-encryption-techniques-696531d07bb9
 
-    - How this ransomware works:
-        - https://0x00sec.org/t/how-ransomware-works-and-gonnacry-linux-ransomware/4594
-        - https://medium.com/@tarcisioma/how-ransomware-works-and-gonnacry-linux-ransomware-17f77a549114
+    - How this ransomware works: https://medium.com/@tarcisioma/how-ransomware-works-and-gonnacry-linux-ransomware-17f77a549114
 
-    - Mentions:
-        - https://www.sentinelone.com/blog/sentinelone-detects-prevents-wsl-abuse/
-        - https://hackingvision.com/2017/07/18/gonnacry-linux-ransomware/
-        - https://www.youtube.com/watch?v=gSfa2L158Uw
 - https://github.com/sithis993/Crypter :: py :: .NET
 - https://github.com/wille/cry :: go
 - https://github.com/leonv024/RAASNet :: py :: .NET :: Ransomware as as Service => C&C interface
