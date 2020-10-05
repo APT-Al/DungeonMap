@@ -1,0 +1,24 @@
+Drive-by Compromise
+
+Normal internet sörfü esnasında indirilen executable.
+Yapılma ihtimali yüksek. Önceden dizi,film indirme aracı olarak indirilmesi sonucu 100'lerce bin doların uçurulduğu durumlar bulunuyor.
+MalAds (Malicious Ads) kullanımı ile kısa sürede yüksek seviyede kullanıcıya erişim mümkün ama google veya yahoo gibi şirketlerin reklam yapıları bir süre sonra bunları farkedebiliyor. SEO ile kaçmak mümkün olabilir.
+Drive-by kullanımında reklamın yanı sıra sayfanın bizim dostumuz olması ve belli başlı tarayıcı veya plugin zafiyetlerini araması gerekiyor.
+
+External Remote Services
+Worm yapıda yazılırsa sonuç elde edilebilecek network içi yapılanmanın zafiyetini kullanan erişim tipi.
+Üniversite içi gibi networkler yardımcı olabilir. 1-20000 gibi bir yayılma payı mevcut. (Bilsis encrypted - Pay 20 BTC LEN MQ)
+
+Phishing
+Çok sayıda kurbana 30 dakika gibi kısa bir sürede bulk mailing ile erişilebildiği için kolaylıkla tercih edilebilir bir yöntem. Lateral versiyonu ile daha da başarılı olabilir.(Lateral phishing attacks are sent from a legitimate—but compromised—account.)
+Otomatik dosya karantinaya alan anti-virüs yapılarını bypass için self-disguised bir yapı kurmamız gerekebilir.
+
+Replication Through Removable Media 
+Birinin buna düşme ihtimalini zayıf görsem de eğitici olacağına şüphem yok. Tak-çalışsın yapıda bi usb örneği hazırlanması hazlinde deneme yapılacak bilgisayar benimkisi olmaz.
+
+
+
+
+
+
+
