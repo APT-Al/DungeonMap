@@ -63,6 +63,16 @@ it depends on your imagination
 7. If each encrypted file is written to a new file, the original files must be deleted.
 8. Finally, the encryption key is removed from the local machine and sent back to the controller.
 
+# DGA command-and-control channels.
+These are used by malware to create pseudorandom domains that are either unregistered or registered in bulk. If the domains are unregistered, there is a pretty good chance that you have already suffered DNS cache poisoning and need to take a look at how to secure your DNS servers. DNS cache poisoning is an attack where  corrupt domain name system data is introduced into a DNS resolver’s cache, causing the name server to return an incorrect IP address, which results in diverting traffic to the attacker’s computer. The appeal of conducting criminal activity with DGA infrastructures is pretty basic: 
+- Static reputation-based blacklisting mechanisms are impossible to update at the speed at which DGAs can be generated.
+- Criminal organizations can create nimble command-and-control infrastructures that can be brought up and down as needed.
+- Traditional edge-based network filtering will often fail to find these outbound connections.
+- Domain name registration can be done as the ransomware is released or executed to provide just-in-time (JIT) connections, limiting the feasibility of reactive countermeasures.
+- Ransomware actors can propagate a large presence without ever exposing their command-and-control infrastructure because it is constantly on the move.
+
+The biggest thing to note is that most DGAs are not like the sample referenced above, a string of words that could potentially make sense to someone. Instead, most DGAs leverage random characters to create meaningless garbled URLs that in all likelihood haven’t been registered. This means one thing you can look for in your outbound traffic and DNS lookup services is attempts to resolve meaningless domains. Another thing to look for would be an increase in searches for nonexistent domains, because the DGAs on the ransomware will cycle through all of the domains in their detection algorithms and usually not hit on the first one (usually that is).
+
 
 ## Open Source Ransomware
 - https://github.com/NYAN-x-CAT/Lime-RAT :: visualBasic :: .NET
