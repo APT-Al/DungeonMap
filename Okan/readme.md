@@ -73,6 +73,10 @@ These are used by malware to create pseudorandom domains that are either unregis
 
 The biggest thing to note is that most DGAs are not like the sample referenced above, a string of words that could potentially make sense to someone. Instead, most DGAs leverage random characters to create meaningless garbled URLs that in all likelihood haven’t been registered. This means one thing you can look for in your outbound traffic and DNS lookup services is attempts to resolve meaningless domains. Another thing to look for would be an increase in searches for nonexistent domains, because the DGAs on the ransomware will cycle through all of the domains in their detection algorithms and usually not hit on the first one (usually that is).
 
+# CERBER
+
+As noted, more than half of all Cerber attacks originate with spam, which often contains a macro embedded in a Microsoft Office document that contains a VBScript that calls PowerShell to initiate a download of Cerber. Chapter 4 discussed the option of disabling the Windows scripting engine, but it also might be worthwhile to disable PowerShell on systems where it is not necessary.
+
 
 ## Open Source Ransomware
 - https://github.com/NYAN-x-CAT/Lime-RAT :: visualBasic :: .NET
