@@ -105,7 +105,7 @@ The other advantage of delaying the start of the encryption process is that it p
 
 
 ## Open Source Ransomware
-- https://github.com/NYAN-x-CAT/Lime-RAT :: visualBasic :: .NET
+
 - https://github.com/mauri870/ransomware :: go :: 
 - https://github.com/tarcisio-marinho/GonnaCry :: py :: veryNice
     - Ransomware Impact on industry: https://medium.com/@tarcisioma/how-can-a-malware-encrypt-a-company-existence-c7ed584f66b3
@@ -113,24 +113,40 @@ The other advantage of delaying the start of the encryption process is that it p
     - How this ransomware encryption scheme works: https://medium.com/@tarcisioma/ransomware-encryption-techniques-696531d07bb9
 
     - How this ransomware works: https://medium.com/@tarcisioma/how-ransomware-works-and-gonnacry-linux-ransomware-17f77a549114
-
 - https://github.com/sithis993/Crypter :: py :: .NET
 - https://github.com/wille/cry :: go
 - https://github.com/leonv024/RAASNet :: py :: .NET :: Ransomware as as Service => C&C interface
 
 
 
-## Blog Posts
 
-- https://www.malwaretech.com/2016/12/open-source-ransomware.html
+## Open Source BotNet
+- https://github.com/nettitude/PoshC2 :: py :: a proxy aware C2 framework 
+- https://github.com/leonv024/RAASNet :: py :: .NET :: Ransomware as as Service => C&C interface
+- https://github.com/NYAN-x-CAT/Lime-RAT :: visualBasic :: .NET
+- https://github.com/UBoat-Botnet/UBoat :: py :: A proof-of-concept HTTP Botnet
+- https://github.com/malwaredllc/byob :: py
+- https://github.com/epsylon/ufonet :: py :: P2P and cryptographic -disruptive toolkit
+- https://github.com/sweetsoftware/Ares :: py :: Remote Access Tool
+
+## Smart Contract
+
+- https://arxiv.org/pdf/2003.04426.pdf
+- https://medium.com/reserve-currency/smart-contracts-will-make-ransomware-more-profitable-part-1-a687fc370320
+- https://medium.com/reserve-currency/smart-contracts-will-make-ransomware-a-lot-more-profitable-part-2-1a316ad56fdf
 
 
+## Blog for Ransomware Analysis
 
+- varonis.com
+- sentinelone.com
+- secureworks.com 
+- fireeye.com
+- zscaler.com
+- malware-traffic-analysis.net
+- blog.talosintelligence.com
+- unit42.paloaltonetworks.com
+- trendmicro.com
+- blogs.cisco.com
+- www.malwaretech.com
 
-
-
-
-
-
-> WHERE AM I <br>
-> continue from Chapter 3.
