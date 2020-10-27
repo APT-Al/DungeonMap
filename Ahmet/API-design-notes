@@ -1,0 +1,40 @@
+{ip}/{info_type}/{specification} GET => GET specific info 
+
+{ip}/{info_type}/{specification} POST => POST info
+
+{ip} POST => başlangıçta bilgisayar tanıtımını db için anamakineye gönderecek 
+		ki biz de veri toplayabileceğiz
+{ip} GET => client tarafındaki yazılımın bilgi toplaması için kullanılacak
+	Yazılıma bir de genel geçer bilgi alanı ekle, böylece
+		yeni bir feature eklemeden farklı görevler koşturabilsin.
+			OS dependent command line arg gibi gibi.
+
+{ip}/db/gimme GET => dashboard için toplanan veriyi çekecek
+{ip}/db/takeit POST => dashboard için toplanan veriyi gönderecek
+
+Uygulama içerisinde GET/POST yapacak olan servis go'da yazılırsa 
+	çok başarılı olacaktır.
+
+Bu api'nin hangi dilde yazıldığından çok server tarafında OS/prot vb. 
+	bilgilerinin verilmemesi önemli olacak.
+
+Veritabanı için ayrı bir db açılacak ve tercihen farklı bir api mimarisi 
+	kullanılacak.
+
+Veritabanı verilerinin RequestType/ResponseType değerleri JSON olacak.
+
+Veritabani tasarımında tercihen fixed size kullanılacak ancak veritabanı da
+	id prim.key sahibi parçalı yapıda olacak.
+		Böylece dashboard verileri dertsiz tasasız yüklenirken
+			bizim düşman tanıma aşamamız bize uygun hızda olacak.
+
+POSTofGET kullanarak veri çekme esnasında authToken kullanabileceğiz.
+Auth token üretimi için de bir api yazılabilir.
+
+
+3 API gerekiyor.
+DB için
+Veri çeken yazılımın bizim olduğunu doğrulayabilmek için.
+Client taraftaki yazılımın bizim olduğunu anlatmak için
+
+pushNotifications kısmı için araştırma yapacağım !!!
