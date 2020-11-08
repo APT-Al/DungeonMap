@@ -132,8 +132,19 @@ The other advantage of delaying the start of the encryption process is that it p
 ## Smart Contract
 
 - https://arxiv.org/pdf/2003.04426.pdf
+- https://www.initc3.org/files/Gyges.pdf
 - https://medium.com/reserve-currency/smart-contracts-will-make-ransomware-more-profitable-part-1-a687fc370320
 - https://medium.com/reserve-currency/smart-contracts-will-make-ransomware-a-lot-more-profitable-part-2-1a316ad56fdf
+
+- https://ethgasstation.info/calculatorTxV.php
+- https://ethereum.org/en/developers/ ::: https://ethereum.org/en/developers/learning-tools/
+- https://solidity.readthedocs.io/en/v0.4.24/introduction-to-smart-contracts.html
+- https://www.leewayhertz.com/ethereum-smart-contract-tutorial/
+
+- https://github.com/ajlopez/SoliditySamples
+- https://github.com/James-Sangalli/learn-solidity-with-examples
+- https://github.com/pbrudny/learning-solidity-2018
+- https://github.com/Azure-Samples/blockchain/tree/master/blockchain-workbench/application-and-smart-contract-samples
 
 
 ## Blog for Ransomware Analysis
