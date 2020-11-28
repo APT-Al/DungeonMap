@@ -23,6 +23,8 @@ Good software development organizations want their programmers to maintain to so
 
 ### Varible
 - variable_name
+- #### Temp Varible
+    - _temp_variable_name
 
 ### Indentation
 
@@ -31,10 +33,6 @@ function(){
     ???
 }
 
-function()
-{
-    ???
-}
 ```
 
 ### Git Commit Style
